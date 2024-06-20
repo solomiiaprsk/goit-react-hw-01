@@ -1,0 +1,35 @@
+.table {
+    min-width: 600px;
+    max-width: 900px;
+    margin: 40px auto;
+    font-size: 24px;
+    border: 1px solid grey;
+}
+
+.head {
+    background-color: rgb(224, 255, 255);
+   
+}
+
+.data {
+    padding: 12px 0;
+    max-width: 30%;
+    
+}
+
+.row:nth-child(2n) {
+    background-color: rgba(224,
+        255,
+        255, 0.2);
+        
+}
+
+.row:nth-child(2n + 1) {
+    background-color: rgba(150, 180, 180, 0.2);
+}
+
+.dataItem {
+    padding: 12px 0;
+    text-align: center;
+   
+}
